@@ -1,9 +1,10 @@
 import React from 'react'
 import {
-    Link
+    Link,
+    useLocation
   } from "react-router-dom";
 function Navbar() {
-    
+  let location = useLocation();
   return (
     <>
     <div className="container-fluid bg-light position-relative shadow">
@@ -14,7 +15,7 @@ function Navbar() {
                 <a class="navbar-brand" href="#">
                   <img src="img/logo_Kbv.png" alt="" width="87" height="80"/>
                 </a>
-                 <span className="text-primary">KBV</span>
+                 <span className="text-primary">Smt. KBV</span>
     </Link>
     
     <button
@@ -27,11 +28,12 @@ function Navbar() {
     </button>
     <div className="collapse navbar-collapse justify-content-between"id="navbarCollapse">
     <div className="navbar-nav font-weight-bold mx-auto py-0">
-                   <Link to="/" className="nav-item nav-link">Home</Link>
-                   <Link to="/about" className="nav-item nav-link">About</Link>
-                   <Link to="/classname" className="nav-item nav-link">className</Link>
-                   <Link to="/teachers" className="nav-item nav-link">Teachers</Link>
-                   <Link to="/gallery" className="nav-item nav-link">Gallery</Link>
+      
+                   <Link to="/" className={`nav-link ${location.pathname==="/" ? "nav-item nav-link active": "nav-item nav-link"}`}>Home</Link>
+                   <Link to="/about"  className={`nav-link ${location.pathname==="/about" ? "nav-item nav-link active": "nav-item nav-link"}`}>About</Link>
+                   <Link to="/classname"  className={`nav-link ${location.pathname==="/classname" ? "nav-item nav-link active": "nav-item nav-link"}`}>className</Link>
+                   <Link to="/teachers"  className={`nav-link ${location.pathname==="/teachers" ? "nav-item nav-link active": "nav-item nav-link"}`}>Teachers</Link>
+                   <Link to="/gallery"  className={`nav-link ${location.pathname==="/gallery" ? "nav-item nav-link active": "nav-item nav-link"}`}>Gallery</Link>
                    
                    <div className="nav-item dropdown">
                      <Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Pages</Link>
@@ -41,7 +43,7 @@ function Navbar() {
                      </div>
                    </div>
 
-                   <Link to="contact" className="nav-item nav-link">Contact</Link>
+                   <Link to="/contact" className={`nav-link ${location.pathname==="/contact" ? "nav-item nav-link active": "nav-item nav-link"}`}>Contact</Link>
                  </div>
                  <Link to="#" className="btn btn-primary px-4">Join className</Link>
          </div>

@@ -11,7 +11,7 @@ function Home() {
         <div className="col-lg-6 text-center text-lg-left">
           <h4 className="text-white mb-4 mt-5 mt-lg-0">Shree Ganeshay Namah</h4>
           <h1 className="display-3 font-weight-bold text-white">
-              Smt. Kamlaben Badhir Vidhyalaya
+              Shreemati Kamlaben Badhir Vidhyalaya
           </h1>
           <p className="text-white mb-4">
             Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed
@@ -22,11 +22,11 @@ function Home() {
           <a href="" className="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
         </div>
         <div className="col-lg-6 text-center text-lg-right">
-          <img className="img-fluid mt-5" src="img/header.png" alt="" />
+          <img className="img-fluid mt-5" style={{height:'600px',width:'750px'}}src="img/school.png" alt="" />
         </div>
       </div>
     </div>
-      <Inner_about/>
+    <Inner_about/>
 
     {/*class*/}
     <div className="container-fluid pt-5">

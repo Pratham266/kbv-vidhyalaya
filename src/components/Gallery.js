@@ -35,7 +35,7 @@ function Gallery() {
         <div className="row">
           <div className="col-12 text-center mb-2">
             <ul className="list-inline mb-4" id="portfolio-flters">
-              <li className="btn btn-outline-primary m-1 active" data-filter="*" onClick={()=>setItems(Menu)}>
+              <li className="btn btn-outline-primary m-1" data-filter="*" onClick={()=>setItems(Menu)}>
                 All
               </li>
               <li className="btn btn-outline-primary m-1" data-filter=".first" onClick={()=>filterItem('about')}>
