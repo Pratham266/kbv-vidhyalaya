@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
     <Link className="navbar-brand font-weight-bold text-secondary" style={{fontSize: '30px'}} to="#">
                 <i className="flaticon-043-teddy-bear"></i>
-                 <span className="text-primary">Kamlaben Badhir Vidhyalaya</span>
+                 <span className="text-primary">Smt. Kamlaben Badhir Vidhyalaya</span>
     </Link>
     <div className="collapse navbar-collapse justify-content-between"id="navbarCollapse">
     <div className="navbar-nav font-weight-bold mx-auto py-0">
