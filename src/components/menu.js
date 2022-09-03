@@ -1,0 +1,60 @@
+const Menu =[
+    {
+        id:1,
+        image:"img/about-2.jpg",
+        category:"about"
+
+    },
+    {    
+        id:2,
+        image:"img/about-2.jpg",
+        category:"about"
+    },
+    {    
+        id:3,
+        image:"img/about-2.jpg",
+        category:"about"
+    },
+    {    
+        id:4,
+        image:"img/blog-1.jpg",
+        category:"blog"
+    },
+    {    
+        id:5,
+        image:"img/blog-2.jpg",
+        category:"blog"
+    },
+    {    
+        id:6,
+        image:"img/blog-3.jpg",
+        category:"blog"
+    },
+    {    
+        id:7,
+        image:"img/portfolio-1.jpg",
+        category:"portfolio"
+    },
+    {    
+        id:8,
+        image:"img/portfolio-2.jpg",
+        category:"portfolio"
+    },
+    {    
+        id:9,
+        image:"img/portfolio-3.jpg",
+        category:"portfolio"
+    },
+    {    
+        id:10,
+        image:"img/portfolio-4.jpg",
+        category:"portfolio"
+    },
+    {    
+        id:11,
+        image:"img/portfolio-5.jpg",
+        category:"portfolio"
+    },
+
+];
+export default Menu;

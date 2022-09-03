@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Home from "./components/Home";
 import Classname from "./components/Classname";
-import Gallary from "./components/Gallary";
+import Gallary from "./components/Gallery";
 import Teachers from "./components/Teachers";
 import Contact from "./components/Contact";
 import {
@@ -21,7 +21,7 @@ function App() {
             <Route exact path="/" element={<Home />} ></Route>
             <Route exact path="/about" element={<About />} ></Route>
             <Route exact path="/classname" element={<Classname/>} ></Route>
-            <Route exact path="/gallary" element={<Gallary/>} ></Route>
+            <Route exact path="/gallery" element={<Gallary/>} ></Route>
             <Route exact path="/teachers" element={<Teachers/>} ></Route>
             <Route exact path="/contact" element={<Contact/>} ></Route>
             <Route exact path="/page1" element={<Page1/>} ></Route>
