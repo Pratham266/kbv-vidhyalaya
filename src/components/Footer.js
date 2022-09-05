@@ -14,8 +14,8 @@ function Footer() {
             className="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
             style={{fontSize:'40px',lineHeight:'40px'}}
           >
-            <i className="flaticon-043-teddy-bear"></i>
-            <span className="text-white">KidKinder</span>
+            <img src="logo_kbv.ico" alt="" width="87" height="80"/>
+            <span className="text-white">Smt. KBV</span>
           </a>
           <p>
             Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea

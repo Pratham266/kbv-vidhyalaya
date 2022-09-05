@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Inner_about from './Inner_about'
+import Youtube from './Youtube'
 
 function Home() {
   return (
@@ -21,8 +22,8 @@ function Home() {
           </p>
           <a href="" className="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
         </div>
-        <div className="col-lg-6 text-center text-lg-right">
-          <img className="img-fluid mt-5" style={{height:'600px',width:'750px'}}src="img/school.png" alt="" />
+        <div className="col-lg-6 text-center text-lg-right" style={{marginBottom:'50px',marginTop:'10px'}}>
+          <img className="img-fluid mt-5" style={{height:'450px',width:'800px'}}src="img/school.png" alt="" />
         </div>
       </div>
     </div>
@@ -162,9 +163,11 @@ function Home() {
         </div>
       </div>
     </div>
+    {/*Youtube cart*/}
+    <Youtube/>
 
     {/*Registration cart*/}
-    <div className="container-fluid py-5">
+    {/* <div className="container-fluid py-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-7 mb-5 mb-lg-0">
@@ -242,7 +245,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
     
     {/*testimonial*/}

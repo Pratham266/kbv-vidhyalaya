@@ -12,7 +12,7 @@ function Navbar() {
     <Link className="navbar-brand font-weight-bold text-secondary" style={{fontSize: '30px'}} to="#">
                 {/* <i className="flaticon-043-teddy-bear"></i> */}
                 {/* <img href="img/logo_Kbv.png" alt="icon" /> */}
-                <a class="navbar-brand" href="#">
+                <a className="navbar-brand" href="#">
                   <img src="img/logo_Kbv.png" alt="" width="87" height="80"/>
                 </a>
                  <span className="text-primary">Smt. KBV</span>
